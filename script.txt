@@ -1,0 +1,4 @@
+database    logincrud
+table       alumno (cod_estudiante, ci, nombres, apellidos)
+	    usuario(id, usuario, contraseña)
+		

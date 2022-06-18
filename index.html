@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel = "stylesheet" href = "css/login.css">
+    <link rel = "stylesheet" href = "css/cabecera.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+</head>
+<body>
+    <!--Este formulario es para recibir los datos y redireccionar a otro directorio-->
+    <form action="validar.php" method = "post">
+        <h1 class = "animate__animated animate__backInRight">Inicio de Sesion</h1>
+        <!--Creamos los input para recibir los datos a ingresar-->
+        <p>Usuario <input type="text" placeholder = "Ingrese su Nombre" name = "usuario"></p>
+        <p>Contraseña <input type="password" placeholder = "Ingrese su Contraseña" name = "contraseña"></p>
+        <!--Creamos otro input de tipo sobmit para enviar los datos ingresados-->
+        <input type="submit" value = "Aceptar">
+    </form>
+    <form action="registrar.php">
+        <input type="submit" value = "Registrarse">
+    </form>
+
+</body>
+</html>
