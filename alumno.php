@@ -28,7 +28,7 @@
                         <div class="col-md-3">
                             <h1>Ingrese datos</h1>
                                 <form action="insertar.php" method="POST">
-                                
+                                    
                                     <input type="text" class="form-control mb-3" name="ci" placeholder="CI ">
                                     <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres">
                                     <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos">
@@ -67,12 +67,9 @@
                                             }
                                         ?>
                                 </tbody>
-                                
                             </table>
                         </div>
-                        
                     </div>  
             </div>
     </body>
-    
 </html>

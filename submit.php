@@ -4,11 +4,11 @@
     include('db.php');
     $con=conectar();
 
-    $id = $_POST["id"];
+    
     $usuario = $_POST["usuario"];
     $contraseña = $_POST["contraseña"];
 
-    $sql = "INSERT INTO usuario VALUES('$id', '$usuario', '$contraseña')";
+    $sql = "INSERT INTO usuario (usuario, contraseña) VALUES('$usuario', '$contraseña')";
     $query = mysqli_query($con, $sql);
 
     if($query){

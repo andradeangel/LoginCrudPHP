@@ -3,14 +3,14 @@
     //$conexion = mysqli_connect("localhost", "root", "", "logincrud");
     function conectar(){
         $host="localhost";
-        $user="root";
-        $pass="";
+        $user="id19118635_root";
+        $pass="Usr\}@-M*w0W~l[b";
     
-        $bd="logincrud";
+        $bd="id19118635_logincrud";
     
         $con=mysqli_connect($host,$user,$pass);
     
-        mysqli_select_db($con,$bd);
+        mysqli_select_db($con, $bd);
     
         return $con;
     }
